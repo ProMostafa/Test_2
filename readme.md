@@ -9,10 +9,10 @@ Use the package manager  <span style="color:blue">*pip*</span> to install foobar
 
 ## Usage
 
-`import foobar`/
-`foobar.pluralize('word') # return 'words'`/ 
-`foobar.pluralize('goose') # return 'goose'`/ 
-`foobar.pluralize('phenomena') # return 'phenomenon'`/
+`import foobar`\
+`foobar.pluralize('word') # return 'words'`\ 
+`foobar.pluralize('goose') # return 'goose'`\
+`foobar.pluralize('phenomena') # return 'phenomenon'`\
 
 ## Contributing
 
