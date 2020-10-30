@@ -37,6 +37,60 @@ remove branch from remote repo
 git push  origin :test
 
 
+5-
+git tag -a v1.4 -m"v1.4"
+git push origin v1.4
+
+6- 
+list tag local
+git tag
+list tag remote
+git ls-remote --tags origin
+
+7-
+delete tag local
+git tag -d v1.4
+
+delete tag remote
+git push origin --delete v1.4
+
+8- 
+Rebasing is the process of moving or combining a sequence of commits to a new base commit
+ rebase like merge but not make problems like forks 
+get a much cleaner project history
+
+9-
+pull requests
+1-Just a heads up
+
+2- Sanity check 
+
+3-Work in progress (WIP)
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
