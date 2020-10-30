@@ -1,0 +1,42 @@
+1-
+git init
+touch lab2
+git remote add origin git@github.com:ProMostafa/Test_2.git
+git push -u origin master
+
+2-
+git branch dev
+git branch test
+
+git checkout dev
+touch dev_f1
+git add dev_f1
+git commit -m "dev_work"
+git push  origin dev
+
+git checkout test
+touch test_f1
+git add test_f1
+git commit -m "test_work"
+git push  origin test
+
+3-
+git checkout master
+git merge dev
+git merge test
+git push origin master
+
+4-
+remove branch local
+if merged 
+git branch -d dev
+if not merge
+git branch -D test
+
+remove branch from remote repo
+git push  origin :test
+
+
+
+
+
